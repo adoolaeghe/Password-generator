@@ -1,7 +1,3 @@
-LOWERCASECASE = "abcdefghijklmnopqrstuvwxyz"
-UPPERCASE = "ABCDEFGHIKLMNOPQRSTUVWXYZ"
-SPECIAL =  "~`!@#$%^&*()-_+=;:/?.,><"
-NUMBERS = "123456789"
 
 class Password_generator
 

@@ -1,4 +1,4 @@
-require_relative 'string'
+require_relative 'characters'
 require_relative 'password'
 require_relative 'boolean-check'
 

@@ -1,6 +1,49 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/antoinedoolaeghe/Documents/MakersAcademy/password_generator/spec/unit/characters_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        6,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/antoinedoolaeghe/Documents/MakersAcademy/password_generator/lib/characters.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        14,
+        13,
+        null,
+        null
+      ],
       "/Users/antoinedoolaeghe/Documents/MakersAcademy/password_generator/spec/unit/password_generator_spec.rb": [
         1,
         null,
@@ -59,19 +102,6 @@
         null,
         null
       ],
-      "/Users/antoinedoolaeghe/Documents/MakersAcademy/password_generator/lib/string.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        14,
-        13,
-        null,
-        null
-      ],
       "/Users/antoinedoolaeghe/Documents/MakersAcademy/password_generator/lib/password.rb": [
         1,
         null,
@@ -123,38 +153,8 @@
         null,
         null,
         null
-      ],
-      "/Users/antoinedoolaeghe/Documents/MakersAcademy/password_generator/spec/unit/string_generator_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        6,
-        null,
-        1,
-        1,
-        2,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null
       ]
     },
-    "timestamp": 1506884895
+    "timestamp": 1506885336
   }
 }

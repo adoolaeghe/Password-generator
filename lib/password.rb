@@ -1,13 +1,13 @@
 class Password
 
-  attr_reader :string
+  attr_reader :characters
 
   def initialize
-    @string = String_Array.new
+    @characters = Characters.new
   end
 
   def create(length, uppercase, lowercase, number, special)
-    array = string.generate(uppercase, lowercase, number, special)
-    return (0...length).map { array[rand(array.length)] }.join
+    characters_array = characters.generate(uppercase, lowercase, number, special)
+    return (0...length).map { characters_array[rand(characters_array.length)] }.join
   end
 end

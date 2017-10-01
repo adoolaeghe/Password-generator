@@ -8,7 +8,7 @@ describe Password do
     srand(1)
   end
 
-  context 'when initialized' do
+  context 'when create is called' do
     it 'renders lowercase' do
       expect(password.create(length, false, true, false, false)).to include("a")
     end

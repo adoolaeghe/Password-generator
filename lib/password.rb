@@ -1,4 +1,3 @@
-require_relative 'string'
 class Password
 
   attr_reader :string

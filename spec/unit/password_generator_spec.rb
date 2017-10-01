@@ -1,7 +1,8 @@
 require 'password_generator'
 
 describe Password do
-  let(:length) {10}
+  let(:length) { 10 }
+  let(:non_numeric_length) { '10' }
   let(:password_generator) { Password_generator.new }
 
   before :each do
@@ -9,6 +10,10 @@ describe Password do
   end
 
   context 'when create is called' do
+    it 'raise and error when unvalid argument' do
+      expect{ password_generator.create(non_numeric_length, false, true, false, false).length }.to raise_error(ArgumentError)
+    end
+
     it 'has the specified length' do
       expect(password_generator.create(length, false, true, false, false).length).to equal(length)
     end

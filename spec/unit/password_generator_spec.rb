@@ -10,8 +10,9 @@ describe Password_generator do
   end
 
   context 'when method create is called' do
-    it 'raise and error with unvalid arguments' do
+    it 'raise and error with unvalid arguments or length lower than 2' do
       expect{ password_generator.create(non_numeric_length, false, true, false, false).length }.to raise_error(ArgumentError)
+      expect{ password_generator.create(1, false, true, false, false).length }.to raise_error(ArgumentError)
     end
 
     it 'generate the password with the specified length' do

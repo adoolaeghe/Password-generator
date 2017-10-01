@@ -11,7 +11,9 @@ class Password_generator
   end
 
   def create(length, uppercase, lowercase, number, special)
-    raise ArgumentError.new ('Argument is not correct') if (!length.is_a? Numeric) || ![uppercase,lowercase,number,special].all?(&:boolean?)
+    raise ArgumentError.new ('Argument is not correct') if (!length.is_a? Numeric) ||
+                                                            (length < 2) ||
+                                                            ![uppercase,lowercase,number,special].all?(&:boolean?)
     return password.create(length, uppercase, lowercase, number, special)
   end
 end

@@ -3,7 +3,7 @@ class Password
   attr_reader :string
 
   def initialize
-    @string = String.new
+    @string = String_Array.new
   end
 
   def create(length, uppercase, lowercase, number, special)

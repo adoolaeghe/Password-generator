@@ -1,6 +1,7 @@
 require_relative 'string'
 require_relative 'password'
 require_relative 'boolean-check'
+
 class Password_generator
 
   attr_reader :password

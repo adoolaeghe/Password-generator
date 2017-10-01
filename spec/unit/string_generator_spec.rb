@@ -1,4 +1,4 @@
-require 'string_generator'
+require 'string'
 
 describe String do
 
